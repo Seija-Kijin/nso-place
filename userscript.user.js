@@ -13,7 +13,7 @@ if (window.top !== window.self) {
         document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
         (function () {
             const i = document.createElement("img");
-            i.src = "https://raw.githubusercontent.com/lopeh/onepiece-place/main/onepiece_template.png" + "?" + Date();
+            i.src = "https://raw.githubusercontent.com/Seija-Kijin/onepiece-place/main/NSO_Template.png" + "?" + Date();
             i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 2000px;";
             console.log(i);
             window.addEventListener("keydown", function(event) {                
@@ -22,7 +22,7 @@ if (window.top !== window.self) {
                     console.log('showing/hiding/refreshing onepiece...' + Date());
                     if (i.style.display === "none") {
                         // Refresh the image!
-                        i.src = "https://raw.githubusercontent.com/lopeh/onepiece-place/main/onepiece_template.png" + "?" + Date();
+                        i.src = "https://raw.githubusercontent.com/Seija-Kijin/onepiece-place/main/NSO_Template.png" + "?" + Date();
                         i.style.display = "block";
                     } else {
                         i.style.display = "none";
