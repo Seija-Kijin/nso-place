@@ -1,4 +1,4 @@
-# nso-placd
+# nso-place tool
 Needy Streamer Overdose /r/place repo to store the template and script for outlining the place to put titles 
 
 
