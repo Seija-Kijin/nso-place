@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/onepiece Logo template
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  try to take over the canvas!
 // @author       oralekin, exdeejay (xDJ_), anticept, sylvaindd
 // @Modified by  Kawakijin/SeijaKijin
@@ -14,7 +14,7 @@ if (window.top !== window.self) {
         document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
         (function () {
             const i = document.createElement("img");
-            i.src = "https://raw.githubusercontent.com/Seija-Kijin/onepiece-place/main/NSO_Template.png" + "?" + Date();
+            i.src = "https://raw.githubusercontent.com/Seija-Kijin/onepiece-place/main/NSO_template.png" + "?" + Date();
             i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 2000px;";
             console.log(i);
             window.addEventListener("keydown", function(event) {                
