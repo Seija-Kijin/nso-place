@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/onepiece Logo template
 // @namespace    http://tampermonkey.net/
-// @version      0.6
+// @version      0.7
 // @description  try to take over the canvas!
 // @author       oralekin, exdeejay (xDJ_), anticept, sylvaindd
 // @Modified by  Kawakijin/SeijaKijin
