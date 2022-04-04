@@ -1,7 +1,7 @@
-# onepiece-place
-OnePiece /r/place repo to store the template and script for outlining the place to put titles 
+# nso-placd
+Needy Streamer Overdose /r/place repo to store the template and script for outlining the place to put titles 
 
-This script & repo are cloned from [Anticept/httyd-place](https://github.com/anticept/httyd-place) to allow multiple people to be able to update a template image.
+
 
 ## HOW TO USE THE TEMPLATE AND SCRIPT ON /r/place
 Our friends at r/osuplace have made an overlay script! Use this to make sure you're placing pixels in the right spot.
@@ -16,9 +16,7 @@ USE THIS FOR FIREFOX
 
 ### Userscript (Step 2: Install)
 
-Install/click [userscript.user.js](https://github.com/Lopeh/onepiece-place/raw/main/userscript.user.js) from this repository to the addons listed above.
-
-(If you're having trouble installing, check out this video to manually install the userscript [https://discord.com/channels/205770721085882370/958878173871886397/959513509102764033])
+Install/click [userscript.user.js](https://github.com/Seija-Kijin/nso-place/raw/main/userscript.user.js) from this repository to the addons listed above.
 
 ### Running (Step 3: Place!)
 
@@ -27,13 +25,11 @@ Head back to r/place, and do a hard refresh (ctrl+shift+r / ctrl+f5). You should
 
 *The small squares are the intended color. Hover over them and select the right color, then place!*
 
-## Coordination Efforts
+## Meta
 
-We're coordinating at [discord.gg/QpgpC53aSr] and on [reddit.com/r/onepiece].
+This script & repo are cloned from [Anticept/httyd-place](https://github.com/anticept/httyd-place) to allow multiple people to be able to update a template image.
 
-When updates in #announcements are made, hard-refresh the page to get the latest templates.
-
-## To edit the template:
+To edit the template:
 
 Edit the [onepiece_full.png](onepiece_full.png) file without changing the pixel dimensions. Then run the [dithering.py](dithering.py) script on the image. PR:
 
