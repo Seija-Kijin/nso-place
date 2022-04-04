@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/onepiece Logo template
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.4
 // @description  try to take over the canvas!
 // @author       oralekin, exdeejay (xDJ_), anticept, sylvaindd
 // @Modified by  Kawakijin/SeijaKijin
@@ -23,7 +23,7 @@ if (window.top !== window.self) {
                     console.log('showing/hiding/refreshing onepiece...' + Date());
                     if (i.style.display === "none") {
                         // Refresh the image!
-                        i.src = "https://raw.githubusercontent.com/Seija-Kijin/onepiece-place/main/NSO_Template.png" + "?" + Date();
+                        i.src = "https://raw.githubusercontent.com/Seija-Kijin/onepiece-place/main/NSO_template.png" + "?" + Date();
                         i.style.display = "block";
                     } else {
                         i.style.display = "none";
